@@ -14,7 +14,7 @@ effective altruism, mountain rescue, teaching, feminism + lgbtq, trust communiti
 
 ### personal
 
-trad climbing, puzzle hunts, swiftwater canyons, pottery, scuba, lindy hop, {uni/bi/motor}cycles, photography, urbex, origami, hitchhiking, voice/guitar/piano, foreign languages, novels/film/music
+trad climbing, puzzle hunts, swiftwater canyons, pottery, scuba, lindy hop, {uni/bi/motor}cycles, photography, urbex, origami, hitchhiking, voice/guitar/piano, pranks/hacks, foreign languages, novels/film/music
 
 ---
 
@@ -26,7 +26,7 @@ google (search_quality/webanswers), palantir (gotham/raven), caltech ([&gamma;&d
 
 ### or possibly
 
-[sunnyvale pottery studio](http://www.friendsofthesunnyvalepotterystudio.org/), [caltech glee club](http://www.music.caltech.edu/gleeclub/), [wednesday night hop](https://wednesdaynighthop.com/), [world cube association](https://www.worldcubeassociation.org/), [moontribe](https://www.moontribe.org/), [glassell junior school](https://www.mfah.org/visit/glassell-junior-school/), [pearland isd](https://www.pearlandisd.org/)
+[mit mystery hunt](http://www.mit.edu/~puzzle/) (manic sages, ✈✈✈galactic trendsetters✈✈✈, caltech puzzle club), [caltech glee club](http://www.music.caltech.edu/gleeclub/), [sunnyvale pottery studio](http://www.friendsofthesunnyvalepotterystudio.org/), [wednesday night hop](https://wednesdaynighthop.com/), [world cube association](https://www.worldcubeassociation.org/), [moontribe](https://www.moontribe.org/), [glassell junior school](https://www.mfah.org/visit/glassell-junior-school/), [pearland isd](https://www.pearlandisd.org/)
 
 ---
 
