@@ -194,7 +194,7 @@ body {
 }
 .article-inner,
 .archive-article-inner {
-  background: #fff;
+  background: #faf7ff;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
   border: 1px solid #ddd;
@@ -329,9 +329,9 @@ body {
 #logo,
 #subtitle {
   text-decoration: none;
-  color: #555;
+  color: #faf7ff;
   font-weight: 500;
-  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
 }
 #logo {
   font-size: 60px;
