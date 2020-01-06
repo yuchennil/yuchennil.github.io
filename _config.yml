@@ -6,6 +6,7 @@
 title: yuchen lin
 subtitle: cypherpunk, alpinist, loyal friend
 description: "hello! my name is yuchen and i wear many shoes or sometimes none"
+keywords:
 author: yuchen lin
 language: default
 timezone: UTC
@@ -16,6 +17,9 @@ url: https://yuchenl.in
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -28,10 +32,13 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-    new_post_name: :year:month:day-:title.md # File name of new posts
+new_post_name: :year:month:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -41,8 +48,10 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace:
-  
+  tab_replace: ''
+  wrap: true
+  hljs: false
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -51,11 +60,15 @@ index_generator:
   path: 'blog'
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -63,11 +76,19 @@ tag_map:
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYYMMDD
 time_format: HHmm:ss
+## Use post's date for updated date unless set in front-matter
+use_date_for_updated: false
 
 # Pagination
 ## Set per_page to 0 to disable pagination
 per_page: 10
 pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
